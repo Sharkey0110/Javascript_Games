@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: cadetblue;
+    width: 650px;
+    height: 600px;
+    padding: 25px;
+}
+
+.title{
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.result{
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+
+.iconContainer{
+    background-color: aliceblue;
+    width: 610px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.playerIcon{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+}
+
+.comIcon{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.controls{
+    width: 250px;
+    height: 160px;
+    padding: 10px;
+}
+
+button{
+    width: 250px;
+    height: 35px;
+    margin: 8px 0;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: cyan;
+    border: 3px solid;
+}
+
+.stats{
+    background-color: grey;
+    width: 250px;
+    height: 160px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+p{
+    margin: 8px;
+}
