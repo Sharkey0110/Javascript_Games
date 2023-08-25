@@ -12,7 +12,19 @@ let games = 0;
 let choice;
 let comChoice;
 
+let pastChoice;
+let comPastChoice;
+
 function playRound(choice){
+    console.log(pastChoice);
+    if(pastChoice){
+        pastChoice.style.display = "none";
+    }
+
+    if (comPastChoice){
+        comPastChoice.style.display = "none";
+    }
+
     comChoice = comDecision();
 
     comChoice.style.display = "block";
@@ -34,6 +46,8 @@ function playRound(choice){
     }
     document.querySelector("#gameCounter").textContent = games += 1;
     
+    pastChoice = choice;
+    comPastChoice = comChoice;
     
 
     function comDecision(){
