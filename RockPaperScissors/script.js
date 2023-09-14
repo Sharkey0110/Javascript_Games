@@ -15,8 +15,7 @@ let comChoice;
 let pastChoice;
 let comPastChoice;
 
-function playRound(choice){
-    console.log(pastChoice);
+function playRound(
     if(pastChoice){
         pastChoice.style.display = "none";
     }
